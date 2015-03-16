@@ -1,0 +1,11 @@
+package interfaces;
+
+public class Circulo implements AreaCalculavel {
+
+	@Override
+	public double calculaArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
