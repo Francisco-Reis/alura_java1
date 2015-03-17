@@ -1,0 +1,15 @@
+package banco;
+
+public class ValorInvalidoException extends Exception {
+
+	public ValorInvalidoException(double valor) {
+		super("Valor invalido: " + valor);
+	}
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	
+}
