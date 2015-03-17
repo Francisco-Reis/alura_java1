@@ -4,4 +4,8 @@
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="interfaces.AreaCalculavel"/>
 <fullyQualifiedTypeName name="interfaces.Circulo"/>
+<fullyQualifiedTypeName name="banco.Tributavel"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="banco.ValorInvalidoException"/>
 </qualifiedTypeNameHistroy>

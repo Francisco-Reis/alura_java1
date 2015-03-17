@@ -8,7 +8,11 @@ public abstract class Conta {
 	}
 	
 	public void deposita(double valor){
-		this.saldo += valor;
+		if (valor > 0) {
+			this.saldo += valor;
+		} else {
+			throw new ValorInvalidoException("Valor deve ser maior que zero");
+		}
 	}
 	
 	public void saca(double valor){

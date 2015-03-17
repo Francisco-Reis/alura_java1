@@ -26,7 +26,7 @@ public class TestaContas {
 		adc.roda(cc);
 		adc.roda(cp);
 
-		System.out.println("Saldo Total: " + adc.getSaldoTotal());
+		System.out.printf("Saldo Total: %.2f", adc.getSaldoTotal());
 		
 	}
 }
