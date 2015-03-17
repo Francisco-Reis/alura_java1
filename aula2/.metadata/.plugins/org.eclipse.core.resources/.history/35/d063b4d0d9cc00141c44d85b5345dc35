@@ -1,0 +1,31 @@
+package br.com.embresa.banco;
+
+import br.com.embresa.banco.conta.Conta;
+import br.com.embresa.banco.conta.ContaCorrente;
+import br.com.embresa.banco.conta.ContaPoupanca;
+import br.com.embresa.banco.conta.ValorInvalidoException;
+
+public class TestaDeposita {
+	
+	public static void main(String[] args) {
+        Conta cp = new ContaCorrente();
+        
+        cp.setNumero(123);
+        cp.setNome("Francisco");
+        try {
+        	cp.deposita(100);
+        } catch (ValorInvalidoException e) {
+        	System.out.println(e.getMessage());
+        }
+        
+        System.out.println(cp);
+        
+        Conta cp2 = new ContaPoupanca();
+        cp2.setNumero(123);
+        cp2.deposita(23456);
+        cp2.setNome("Reis");
+        System.out.println(cp.equals(cp2));
+        
+    }
+	
+}

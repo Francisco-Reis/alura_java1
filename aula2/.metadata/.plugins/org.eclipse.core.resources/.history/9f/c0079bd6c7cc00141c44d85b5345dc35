@@ -1,0 +1,14 @@
+
+public class StringOperacoes {
+	
+	public static void main(String[] args) {
+		String uma = "dentro";
+		String outra = "Está dentro da outra?";
+		
+		if (outra.indexOf(uma) > 0) {	
+			System.out.println("'uma' está dentro da 'outra'");
+		} else {
+			System.out.println("'uma' não está dentro da 'outra'");
+		}
+	}
+}

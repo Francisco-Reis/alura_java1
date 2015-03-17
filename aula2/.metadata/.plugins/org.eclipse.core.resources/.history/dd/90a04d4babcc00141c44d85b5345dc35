@@ -1,0 +1,6 @@
+package banco;
+
+public class TesteError {
+    public static void main(String[] args) {
+    }
+}
