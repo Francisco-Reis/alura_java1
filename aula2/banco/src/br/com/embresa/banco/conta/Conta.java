@@ -2,8 +2,18 @@ package br.com.embresa.banco.conta;
 
 public abstract class Conta {
 	protected double saldo;
-	private int numero;
+	protected int numero;
 	private String nome;
+	
+	public Conta(){};
+	
+	public Conta(int numero, String nome, double saldo) {
+		this.saldo = saldo;
+		this.numero = numero;
+		this.nome = nome;
+	}
+
+	
 	
 	public String getNome() {
 		return nome;

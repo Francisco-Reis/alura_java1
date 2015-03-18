@@ -1,0 +1,23 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+
+public class Programa1 {
+	public static void main(String[] args) throws IOException {
+		InputStream fileInputStream = System.in;
+		InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
+		BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+		
+		System.out.println("Digite sua mensagem:");
+		String readLine = bufferedReader.readLine();
+		
+		while(readLine != null){
+			System.out.println(readLine);
+			readLine = bufferedReader.readLine();
+		}
+		
+		bufferedReader.close();
+	}
+}

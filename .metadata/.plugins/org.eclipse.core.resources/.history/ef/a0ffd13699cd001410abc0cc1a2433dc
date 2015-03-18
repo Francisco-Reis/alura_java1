@@ -1,0 +1,35 @@
+package br.com.embresa.banco;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import br.com.embresa.banco.conta.Conta;
+import br.com.embresa.banco.conta.ContaPoupanca;
+
+public class TestaOrdenacao {
+	
+	public static void main(String[] args) {
+		
+		List<ContaPoupanca> contas = new ArrayList<ContaPoupanca>();
+		
+		ContaPoupanca c1 = new ContaPoupanca(1,"Sergio",2345);
+		ContaPoupanca c2 = new ContaPoupanca(4897,"Cintia",587557);
+		ContaPoupanca c3 = new ContaPoupanca(3487,"Juca",2345);
+		ContaPoupanca c4 = new ContaPoupanca(4589,"Gislaine",34898);
+		ContaPoupanca c5 = new ContaPoupanca(234,"Rogério",45784893);
+		
+		contas.add(c1);
+		contas.add(c2);
+		contas.add(c3);
+		contas.add(c4);
+		contas.add(c5);
+		
+		Collections.sort(contas);
+		
+		for(Conta c: contas){
+			System.out.println(c);			
+		}
+		
+	}
+}

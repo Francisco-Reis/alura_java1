@@ -1,0 +1,24 @@
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+
+public class Programa1 {
+	public static void main(String[] args) throws IOException {
+		InputStream fileInputStream = new FileInputStream("arquivo1.txt"); // System.in;
+		InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
+		BufferedReader bf = new BufferedReader(inputStreamReader);
+		
+//		System.out.println("Digite sua mensagem:");
+		String readLine = bf.readLine();
+		
+		while(readLine != null){  // !readLine.equals("exit")){
+			System.out.println(readLine);
+			readLine = bf.readLine();
+		}
+		
+		bf.close();
+	}
+}
