@@ -1,11 +1,11 @@
 import java.util.Collection;
-import java.util.HashSet;
+import java.util.LinkedList;
 
 public class TestaPerformance {
 
         public static void main(String[] args) {
             System.out.println("Iniciando...");
-            Collection<Integer> teste = new HashSet<>();
+            Collection<Integer> teste = new LinkedList<>();
             long inicio = System.currentTimeMillis();
 
             int total = 30000;

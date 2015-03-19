@@ -1,0 +1,5 @@
+package br.com.embresa.banco;
+
+public class TestaHashSet {
+
+}

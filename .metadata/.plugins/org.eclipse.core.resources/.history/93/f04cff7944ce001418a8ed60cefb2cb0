@@ -1,0 +1,20 @@
+package br.com.embresa.banco.conta;
+
+import java.util.List;
+
+public class Banco {
+	
+	private List<Conta> contas;
+	
+	public void acidiona(Conta c){
+		this.contas.add(c);
+	}
+	
+	public Conta pega(int x){
+		return this.contas.get(x);
+	}
+	
+	public int pegaQuantidadeDeContas(){
+		return this.contas.size();
+	}
+}
