@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="250" key="dialogHeight"/>
-		<item value="350" key="dialogWidth"/>
+		<item value="556" key="dialogHeight"/>
+		<item value="978" key="dialogWidth"/>
 		<list key="textEntries">
-			<item value="1"/>
-			<item value="2"/>
 		</list>
 		<list key="orderedElements">
-			<item value="org.eclipse.jdt.ui.edit.text.java.add.unimplemented.constructors"/>
-			<item value="org.eclipse.jdt.ui.edit.text.java.generate.constructor.using.fields"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.commands"/>
-			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textArray">
-			<item value="genera"/>
-			<item value="generate con"/>
-			<item value="generate "/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
