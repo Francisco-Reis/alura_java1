@@ -1,0 +1,19 @@
+package com.alura.designpatterns.chain;
+
+import com.alura.designpatterns.Conta;
+
+public class CSV implements Resposta {
+
+	@Override
+	public void responde(Requisicao req, Conta conta) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setProxima(Resposta resposta) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

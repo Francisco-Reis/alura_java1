@@ -1,0 +1,7 @@
+import Orcamento;
+
+
+public interface Imposto {
+
+	public double calcula(Orcamento o);
+}

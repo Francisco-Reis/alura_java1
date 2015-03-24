@@ -1,0 +1,6 @@
+package com.alura.designpatterns.strategy;
+import com.alura.designpatterns.Conta;
+
+interface Investimento {
+	double calcula(Conta conta);
+}

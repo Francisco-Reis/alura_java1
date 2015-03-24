@@ -1,0 +1,5 @@
+package com.alura.designpatterns.chain;
+
+public class Requisicao {
+
+}

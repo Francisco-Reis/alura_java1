@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=design-patterns/C:\/Program Files\/Java\/jre1.8.0_40\/lib\/rt.jar&lt;com.sun.xml.internal.ws.wsdl.writer.document(Import.class[Import" modifiers="1537" timestamp="1426175637933"/>
+<typeInfo handle="=design-patterns/src&lt;{Imposto.java[Imposto" modifiers="513" timestamp="1427136459729"/>
+<typeInfo handle="=design-patterns/src&lt;{Investimento.java[Investimento" modifiers="512" timestamp="1427138979209"/>
+</typeInfoHistroy>

@@ -4,12 +4,22 @@
 		<item value="556" key="dialogHeight"/>
 		<item value="978" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="2"/>
+			<item value="2"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.edit.text.java.generate.constructor.using.fields"/>
+			<item value="org.eclipse.jdt.ui.edit.text.java.create.getter.setter"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textArray">
+			<item value="generate "/>
+			<item value="gc"/>
+			<item value="generate ge"/>
+			<item value="gg"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">

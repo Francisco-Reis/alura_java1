@@ -1,0 +1,10 @@
+
+public class ICCC implements Imposto {
+
+	@Override
+	public double calcula(Orcamento o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

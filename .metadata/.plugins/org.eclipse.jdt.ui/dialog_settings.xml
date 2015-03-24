@@ -4,11 +4,18 @@
 	<item value="3" key="TypeHierarchyViewPart.orientation"/>
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
 	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
-	<item value="D:\Estudos\alura\alura_java1\aula4" key="org.eclipse.jdt.ui.last.external.project"/>
+	<item value="D:\Estudos\alura\alura_java1\aula5\design-patterns" key="org.eclipse.jdt.ui.last.external.project"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 	</section>
 	<section name="GenerateConstructorUsingFieldsSelectionDialog">
 		<item value="false" key="OmitCallToSuper"/>
+	</section>
+	<section name="DialogBounds_SuperInterfaceSelectionDialog">
+		<item value="373" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="548" key="DIALOG_HEIGHT"/>
+		<item value="85" key="DIALOG_X_ORIGIN"/>
+		<item value="-47" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
@@ -27,7 +34,7 @@
 	<section name="ExtractMethodWizard">
 		<item value="false" key="GenerateJavadoc"/>
 		<item value="2" key="AccessModifier"/>
-		<item value="false" key="ThrowRuntimeExceptions"/>
+		<item value="true" key="ThrowRuntimeExceptions"/>
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
