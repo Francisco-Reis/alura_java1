@@ -26,12 +26,23 @@
 <fullyQualifiedTypeName name="javax.sql.DataSource"/>
 <fullyQualifiedTypeName name="br.com.caelum.jdbc.ConnectionPool"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.com.caelum.jdbc.Categoria"/>
 <fullyQualifiedTypeName name="br.com.caelum.jdbc.ProdutosDAO"/>
 <fullyQualifiedTypeName name="br.com.caelum.jdbc.Produto"/>
 <fullyQualifiedTypeName name="Orcamento"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.impl.ior.NewObjectKeyTemplateBase"/>
+<fullyQualifiedTypeName name="com.alura.designpatterns.chain.DescontoVendaCasada"/>
+<fullyQualifiedTypeName name="com.alura.designpatterns.chain.Requisicao"/>
+<fullyQualifiedTypeName name="com.alura.designpatterns.chain.Formato"/>
+<fullyQualifiedTypeName name="com.alura.designpatterns.chain.Resposta"/>
+<fullyQualifiedTypeName name="com.alura.designpatterns.chain.Porcento"/>
+<fullyQualifiedTypeName name="com.alura.designpatterns.Orcamento"/>
+<fullyQualifiedTypeName name="com.alura.designpatterns.strategy.ICPP"/>
+<fullyQualifiedTypeName name="com.alura.designpatterns.strategy.IKCV"/>
+<fullyQualifiedTypeName name="com.alura.designpatterns.strategy.IHIT"/>
+<fullyQualifiedTypeName name="com.alura.designpatterns.strategy.Item"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

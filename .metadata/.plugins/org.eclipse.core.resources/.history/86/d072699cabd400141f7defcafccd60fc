@@ -30,7 +30,7 @@ public class CalculadorDeImposto {
 		System.out.println("ICMS: " + icms);
 		
 		double iss = calculaImposto(orc, new ISS());
-		System.out.println("ISS:  " + iss);
+		System.out.println("ISS: " + iss);
 		
 		double iccc = calculaImposto(orc, new ICCC());
 		System.out.println("ICCC: " + iccc);

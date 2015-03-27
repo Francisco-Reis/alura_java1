@@ -1,8 +1,0 @@
-package br.com.embresa.banco;
-
-public class TestaOrdenacao {
-	
-	public static void main(String[] args) {
-		
-	}
-}

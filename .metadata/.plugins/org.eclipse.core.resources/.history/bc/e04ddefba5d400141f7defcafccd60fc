@@ -3,13 +3,11 @@ package com.alura.designpatterns;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.alura.designpatterns.strategy.Item;
-
 
 public class Orcamento {
 
 	private double valor;
-	private List<Item> itens;
+	private List<String> itens;
 	
 	public Orcamento(double valor) {
 		super();
@@ -17,11 +15,11 @@ public class Orcamento {
 		this.itens = new ArrayList<>();
 	}
 
-	public List<Item> getItens() {
+	public List<String> getItens() {
 		return itens;
 	}
 
-	public void setItens(List<Item> itens) {
+	public void setItens(List<String> itens) {
 		this.itens = itens;
 	}
 

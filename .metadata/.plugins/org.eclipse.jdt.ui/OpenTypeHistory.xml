@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=design-patterns/C:\/Program Files\/Java\/jre1.8.0_40\/lib\/rt.jar&lt;com.sun.xml.internal.ws.wsdl.writer.document(Import.class[Import" modifiers="1537" timestamp="1426175637933"/>
-<typeInfo handle="=design-patterns/src&lt;{Imposto.java[Imposto" modifiers="513" timestamp="1427136459729"/>
-<typeInfo handle="=design-patterns/src&lt;{Investimento.java[Investimento" modifiers="512" timestamp="1427138979209"/>
+<typeInfo handle="=design-patterns/C:\/Program Files\/Java\/jre1.8.0_40\/lib\/ext\/sunjce_provider.jar&lt;com.sun.crypto.provider(DESConstants.class[DESConstants" modifiers="1536" timestamp="1426175628772"/>
+<typeInfo handle="=design-patterns/src&lt;com.alura.designpatterns.chain{Desconto.java[Desconto" modifiers="513" timestamp="1427225917221"/>
+<typeInfo handle="=design-patterns/C:\/Program Files\/Java\/jre1.8.0_40\/lib\/rt.jar&lt;org.omg.CORBA.portable(ResponseHandler.class[ResponseHandler" modifiers="1537" timestamp="1426175637933"/>
+<typeInfo handle="=design-patterns/src&lt;com.alura.designpatterns.chain{Resposta.java[Resposta" modifiers="513" timestamp="1427228668856"/>
+<typeInfo handle="=design-patterns/src&lt;com.alura.designpatterns.strategy{TemplateImposto.java[TemplateImposto" modifiers="1025" timestamp="1427475183275"/>
 </typeInfoHistroy>
