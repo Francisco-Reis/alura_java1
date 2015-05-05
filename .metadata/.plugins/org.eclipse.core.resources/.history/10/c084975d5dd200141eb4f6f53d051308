@@ -1,8 +1,0 @@
-package com.alura.designpatterns.chain;
-
-public interface Desconto {
-
-	public double calcula(double valor);
-	
-	public void proximo(Desconto d);
-}

@@ -1,5 +1,0 @@
-package com.alura.designpatterns.strategy;
-
-public abstract class TemplateImposto {
-
-}
